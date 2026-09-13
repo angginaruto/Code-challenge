@@ -10,7 +10,7 @@ const HomeOverview = () => {
           <div className="relative">
             <div className="absolute -top-6 -left-6 w-32 h-32 bg-red-100 rounded-full opacity-50 z-0"></div>
             <img
-              src="https://anaktelkom.com/wp-content/uploads/2024/12/DSC_0391-scaled.webp"
+              src="https://inspirensis.id/data/media/2025/06/Gedung-Bangkit-Telkom-University-Bandung-810-1200x800.jpg"
               alt="Kampus Telkom University"
               className="relative z-10 rounded-[3rem] shadow-2xl w-full h-125 object-cover"
             />
