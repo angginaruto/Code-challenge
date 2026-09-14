@@ -7,28 +7,17 @@ export default function Experience() {
 
   return (
     <>
-      {/* - Desktop: flex-col, justify-evenly, min-h-[100vh] (Persis desainmu)
-          - Mobile: py-10 dan justify-center agar tidak terlalu renggang
-      */}
       <main className="flex min-h-[100vh] bg-[#E5E5E5] flex flex-col items-center justify-center lg:justify-evenly py-10 lg:py-0">
-        {/* Box Experience: Ukuran asli di PC (97px x 303px) */}
         <div className="h-[90px] w-[280px] lg:h-[97px] lg:w-[303px] border-[5px] border-black flex items-center justify-center mb-8 lg:mb-0">
           <p className="font-montserrat text-[22px] lg:text-[25px] tracking-widest font-bold">
             EXPERIENCE
           </p>
         </div>
 
-        {/* Container Utama: 
-            - Gap di HP diperkecil (gap-6) agar tidak terlalu jauh
-            - Gap di PC kembali ke 70px 
-        */}
         <div className="px-6 lg:px-[100px] text-[#050505] flex flex-col text-center items-center justify-center gap-6 lg:gap-[70px]">
-          {/* Row 1: 
-              - HP: Tumpuk vertikal dengan gap rapat (gap-8)
-              - PC: Row dengan gap asli (300px)
-          */}
+         
           <div className="flex flex-col lg:flex-row items-center justify-center gap-8 lg:gap-[300px]">
-            {/* Box 1: Ukuran asli PC (431px) */}
+            
             <div className="w-full max-w-[431px] lg:h-[104px] lg:w-[431px]">
               <p className={style_h1}>NYC TLC Trip Data Analysis (2024)</p>
               <ul className="font-opensans text-[14px] font-light text-center">
@@ -39,8 +28,6 @@ export default function Experience() {
                 <li>• Extracted insights from raw transportation data</li>
               </ul>
             </div>
-
-            {/* Box 2: Ukuran asli PC (431px) */}
             <div className="w-full max-w-[431px] lg:h-[104px] lg:w-[431px]">
               <p className={style_h1}>React Vite Web Application (2025)</p>
               <ul className="font-opensans text-[14px] font-light text-center">
@@ -53,13 +40,11 @@ export default function Experience() {
             </div>
           </div>
 
-          {/* Pembatas: Ukuran asli 30px */}
           <img
             src={pembatas}
             className="h-[20px] lg:h-[30px] my-2 lg-my-[80px]"
           />
 
-          {/* Box 3: Ukuran asli PC (431px) */}
           <div className="w-full max-w-[431px] lg:h-[104px] lg:w-[431px] flex flex-col items-center justify-center">
             <p className={style_h1}>Independent Software Development Study</p>
             <p className="font-opensans text-[14px] font-light">

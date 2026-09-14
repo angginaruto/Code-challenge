@@ -35,9 +35,7 @@ export default function Skill() {
         {title}
       </p>
 
-      {/* HP: Grid 2 kolom agar tidak sesak 
-          PC: Kembali ke flex justify-evenly sesuai desain awal kamu
-      */}
+     
       <div className="grid grid-cols-2 sm:grid-cols-3 lg:flex lg:flex-row lg:justify-evenly gap-y-10 lg:gap-y-0">
         {skills.map((skill: SkillItem, index: number) => (
           <div key={index} className={name_logo}>
@@ -55,16 +53,15 @@ export default function Skill() {
 
   return (
     <section id="skills" className="bg-[#E5E5E5] py-12 lg:py-24">
-      {/* Container utama menggunakan gap yang lebih kecil di mobile agar tidak terlalu jauh scrolling-nya */}
+      
       <main className="min-h-screen flex flex-col items-center px-4 lg:px-0 gap-12 lg:gap-24">
-        {/* JUDUL UTAMA - Dibuat sedikit lebih kecil di HP agar proporsional */}
+       
         <div className="h-[60px] w-[200px] lg:h-[97px] lg:w-[303px] border-[3px] lg:border-[5px] border-black flex items-center justify-center shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] lg:shadow-none bg-white lg:bg-transparent">
           <p className="font-montserrat text-lg lg:text-[25px] tracking-widest font-bold">
             MY SKILLS
           </p>
         </div>
 
-        {/* DAFTAR SKILL */}
         <SkillCategory
           title="Front-End Skills :"
           skills={[

@@ -9,7 +9,7 @@ export default function Portofolio() {
   return (
     <>
       <section id="portofolio">
-        {/* === TAMPILAN DESKTOP (KODE ASLI KAMU) === */}
+        
         <main className="hidden lg:flex min-h-[100vh] w-[100%] bg-[#1A1A1A] flex flex-col items-center relative shadow-2xl">
           <img src={background} className="z-0 absolute" />
           <div className="h-[97px] w-[303px] border-[5px] border-black flex items-center justify-center relative z-10 m-[80px]">

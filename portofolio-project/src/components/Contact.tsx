@@ -55,9 +55,7 @@ export default function Contact() {
   return (
     <>
       <section id="contact">
-        {/* Hapus 'hidden lg:flex' agar muncul di semua device, tambahkan padding horizontal untuk mobile */}
         <main className="min-h-screen bg-[#E5E5E5] flex flex-col items-center justify-center py-10 px-4">
-          {/* Judul: Ukuran box disesuaikan agar tidak meluap di layar sangat kecil */}
           <div className="h-[80px] w-[260px] md:h-[97px] md:w-[303px] border-[5px] border-black flex items-center justify-center mb-6">
             <p className="font-montserrat text-[20px] md:text-[25px] tracking-widest font-bold">
               CONTACT ME
@@ -68,7 +66,6 @@ export default function Contact() {
 
           <form onSubmit={handleSubmit} className="w-full max-w-[609px]">
             <div className="form-wrapper flex flex-col items-center justify-center lg:gap-[15px]">
-              {/* Input Wrapper: Menggunakan w-full agar responsif terhadap container */}
               <div className="contact-wrapper border-4 border-black w-full h-[48px] pt-[10px] px-[14px] border-t-0 border-r-0 mb-[30px] md:mb-[43px]">
                 <input
                   type="text"
